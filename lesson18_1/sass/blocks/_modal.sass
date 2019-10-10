@@ -22,8 +22,6 @@
             position: absolute
             top: 0
             right: 0
-            &:hover
-                cursor: pointer
         &__title
             margin-top: 1px
             font-size: 22px
@@ -52,9 +50,6 @@
             padding-top: 28px
             padding-bottom: 29px
             font-size: 16px
-            &:hover
-                background-color: lighten($main-color, 10%)
-                cursor: pointer
     &-phone
         display: flex
         flex-wrap: wrap
@@ -71,6 +66,16 @@
             text-decoration: none
             color: #333333
             font-size: 24px
+@media (min-width: 992px)
+    .modal    
+        &-dialog
+            &__button    
+                &:hover
+                    background-color: lighten($main-color, 10%)
+                    cursor: pointer
+            &__close
+                &:hover
+                    cursor: pointer
 @media (max-width: 568px)
     .modal
         &-dialog

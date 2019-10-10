@@ -40,9 +40,6 @@
         width: 100%
         min-height: 70px
         margin-bottom: 29px
-        &:hover
-            background-color: lighten($main-color, 10%)
-            cursor: pointer
     &-contacts
         display: flex
         justify-content: space-between
@@ -58,6 +55,12 @@
             +bold
             color: #333333
             text-decoration: none
+@media (min-width: 992px) 
+    .offer
+        &__button
+            &:hover
+                background-color: lighten($main-color, 10%)
+                cursor: pointer
 @media (max-width: 1200px) and (min-width: 991px)
     .offer
         padding-left: 10px

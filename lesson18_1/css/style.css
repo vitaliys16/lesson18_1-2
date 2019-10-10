@@ -123,11 +123,6 @@ img {
   margin-left: 30px;
 }
 
-.navbar-info__button:hover {
-  background-color: #ffdb33;
-  cursor: pointer;
-}
-
 .navbar-contacts__address {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,6 +142,13 @@ img {
   margin-top: 6px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .navbar-info__button:hover {
+    background-color: #ffdb33;
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 1200px) and (min-width: 991px) {
@@ -389,11 +391,6 @@ img {
   margin-bottom: 29px;
 }
 
-.offer__button:hover {
-  background-color: #ffdb33;
-  cursor: pointer;
-}
-
 .offer-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -422,6 +419,13 @@ img {
   font-weight: 700;
   color: #333333;
   text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .offer__button:hover {
+    background-color: #ffdb33;
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 1200px) and (min-width: 991px) {
@@ -526,10 +530,6 @@ img {
   right: 0;
 }
 
-.modal-dialog__close:hover {
-  cursor: pointer;
-}
-
 .modal-dialog__title {
   margin-top: 1px;
   font-size: 22px;
@@ -577,11 +577,6 @@ img {
   font-size: 16px;
 }
 
-.modal-dialog__button:hover {
-  background-color: #ffdb33;
-  cursor: pointer;
-}
-
 .modal-phone {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -611,6 +606,16 @@ img {
   font-size: 24px;
 }
 
+@media (min-width: 992px) {
+  .modal-dialog__button:hover {
+    background-color: #ffdb33;
+    cursor: pointer;
+  }
+  .modal-dialog__close:hover {
+    cursor: pointer;
+  }
+}
+
 @media (max-width: 568px) {
   .modal-dialog {
     padding: 30px;
@@ -631,8 +636,10 @@ img {
   cursor: pointer;
 }
 
-.scroll-up:hover {
-  background-color: #ffdb33;
-  cursor: pointer;
+@media (min-width: 992px) {
+  .scroll-up:hover {
+    background-color: #ffdb33;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=style.css.map */
